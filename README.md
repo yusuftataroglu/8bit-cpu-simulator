@@ -4,7 +4,9 @@ This is a custom-built 8-bit CPU designed and simulated using the [Digital](http
 
 ### Features
 - 16-instruction custom instruction set
-- 4-bit opcode + 8-bit operand (12-bit instruction)
+- Supports variable-length instructions:
+    8-bit: 4-bit opcode + 4-bit operand
+    16-bit (2 bytes): 4-bit opcode + 8-bit immediate value
 - Microcoded control using EEPROM
 - ZF (Zero) and CF (Carry) flags
 - Separate instruction and data memory
