@@ -1,0 +1,17 @@
+Opcode Mnemonic | Operand | Description
+0x0 ····· LDA ······· | ······x······ | Load A from memory[x]
+0x1 ····· LDB ······· | ······x······ | Load B from memory[x]
+0x2 ····· LDAI ······ | ····imm··· | Load immediate value into A
+0x3 ····· LDBI ······ | ····imm··· | Load immediate value into B
+0x4 ····· STRA ····· | ······x······ | Store A into memory[x]
+0x5 ····· STRB ····· | ······x······ | Store B into memory[x]
+0x6 ····· STRI ······ | ····imm···· | Store A into address from immediate
+0x7 ····· ADD ······· | ······-······· | A = A + B; update ZF, CF
+0x8 ····· SUB ······· | ······-······· | A = A - B; update ZF, CF
+0x9 ····· ADDI ······ | ····imm··· | A = A + immediate; update ZF, CF
+0xA ····· SUBI ······ | ····imm··· | A = A - immediate; update ZF, CF
+0xB ····· JMP ······· | ······x······ | Jump unconditionally to x
+0xC ····· JZ ·········· | ······x······ | Jump to x if ZF is set
+0xD ····· JC ·········· | ······x······ | Jump to x if CF is set
+0xE ····· OUT ······· | ······-······ | Output A to display
+0xF ····· HLT ········ | ······-······ | Stop execution
