@@ -31,6 +31,6 @@ This is a custom-built 8-bit CPU designed and simulated using the [Digital](http
 
 ---
 
-### 💻 Requirements
+### Requirements
 - [Digital Logic Simulator](https://github.com/hneemann/Digital)
 
