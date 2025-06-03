@@ -1,4 +1,4 @@
-# 8-bit CPU Simulation (Digital by hneemann)
+# 8-bit CPU Simulation
 
 This is a custom-built 8-bit CPU designed and simulated using the [Digital](https://github.com/hneemann/Digital) logic simulator.
 
