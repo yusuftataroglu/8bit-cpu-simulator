@@ -40,8 +40,6 @@ This is a custom-built 8-bit CPU designed and simulated using the [Digital](http
     - 16 custom instructions including LDA, ADD, SUB, JMP, JC, JZ, etc.
     - Immediate and memory-based data operations
 ---
-
----
 ### File Structure
 
 - `project/`: Main `.dig` simulation files (full CPU circuit)
