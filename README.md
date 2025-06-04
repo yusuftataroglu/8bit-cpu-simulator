@@ -15,7 +15,7 @@ This is a custom-built 8-bit CPU designed and simulated using the [Digital](http
 ---
 ### Architecture Details
 - Data Bus Width: 8-bit
-- Address Bus Width: 4-bit (Program Counter & MAR)
+- Address Bus Width: 4-bit
 - Registers:
     - Register A: 8-bit (Accumulator)
     - Register B: 8-bit
