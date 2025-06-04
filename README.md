@@ -4,7 +4,7 @@ This is a custom-built 8-bit CPU designed and simulated using the [Digital](http
 
 ### Sample Programs
 - Fibonacci sequence generator (0–255)
-- Simple counter (0–255-0)
+- Simple counter (0–>255->0)
 
 ### Screenshots
 ![circuit_overview](media/circuit_overview.png)
