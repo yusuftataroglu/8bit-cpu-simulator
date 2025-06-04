@@ -22,7 +22,33 @@ This is a custom-built 8-bit CPU designed and simulated using the [Digital](http
 ![fibonacci_run](media/fibonacci_run.gif)
 
 ---
-
+### Architecture Details
+- Data Bus Width: 8-bit
+- Address Bus Width: 4-bit (Program Counter & MAR)
+- Registers:
+    - Register A: 8-bit (Accumulator)
+    - Register B: 8-bit
+    - Program Counter Register: 4-bit
+    - Memory Address Register: 4-bit
+    - Instruction Address Register: 4-bit
+- ALU:
+    - 8-bit Adder / Subtractor
+- Flags:
+    - ZF (Zero Flag)
+    - CF (Carry Flag)
+- Memory:
+    - Instruction Memory: 32-bit (4 × 8-bit instructions)
+    - Data Memory: 32-bit (4 × 8-bit locations)
+- Control Logic:
+    - Microcode-based control using EEPROM
+    - Instruction decoder reacts to Microcode Counter, Opcode, ZF, and CF
+    - Each instruction runs in multiple microsteps
+- Output:
+    - Four 7-segment displays connected to OUT instruction
+- Custom Instruction Set:
+    - 16 custom instructions including LDA, ADD, SUB, JMP, JC, JZ, etc.
+    - Immediate and memory-based data operations
+    - 
 ### File Structure
 
 - `project/`: Main `.dig` simulation files (full CPU circuit)
