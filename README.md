@@ -28,8 +28,8 @@ This is a custom-built 8-bit CPU designed and simulated using the [Digital](http
     - ZF (Zero Flag)
     - CF (Carry Flag)
 - Memory:
-    - Instruction Memory: 32-bit (4 × 8-bit instructions)
-    - Data Memory: 32-bit (4 × 8-bit locations)
+    - Instruction Memory: 128-bit (16 × 8-bit instructions)
+    - Data Memory: 128-bit (16 × 8-bit locations)
 - Control Logic:
     - Microcode-based control using EEPROM
     - Instruction decoder reacts to Microcode Counter, Opcode, ZF, and CF
