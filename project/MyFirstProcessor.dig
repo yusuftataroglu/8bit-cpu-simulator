@@ -3487,7 +3487,7 @@
         </entry>
         <entry>
           <string>Frequency</string>
-          <int>50</int>
+          <int>10</int>
         </entry>
       </elementAttributes>
       <pos x="520" y="1760"/>
@@ -5166,7 +5166,7 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>33,8,77,c6,ee,b2,88,ca,ee,b6,b2</data>
+          <data>22,1,33,0,40,77,d0,ee,41,10,1,b4</data>
         </entry>
         <entry>
           <string>intFormat</string>
