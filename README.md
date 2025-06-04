@@ -16,10 +16,10 @@ This is a custom-built 8-bit CPU designed and simulated using the [Digital](http
 - Simple counter (0–255-0)
 
 ### Screenshots
-![circuit_overview](images/circuit_overview.svg)
+![circuit_overview](media/circuit_overview.svg)
 
 ### Demo
-![fibonacci_run](images/fibonacci_run.gif)
+![fibonacci_run](media/fibonacci_run.gif)
 
 ---
 
@@ -29,7 +29,7 @@ This is a custom-built 8-bit CPU designed and simulated using the [Digital](http
 - `programs/`: Instruction memory programs (e.g., Fibonacci, counter)
 - `instruction_decoder/`: Microcode EEPROM generator
 - `seven_segment_display_decoder/`: Optional decoders for output display
-- `images/`: Circuit overview and simulation screenshots or GIFs
+- `media/`: Circuit overview and simulation screenshots or GIFs
 
 ---
 
