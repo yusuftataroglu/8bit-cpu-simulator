@@ -16,7 +16,7 @@ This is a custom-built 8-bit CPU designed and simulated using the [Digital](http
 - Simple counter (0–255-0)
 
 ### Screenshots
-![circuit_overview](media/circuit_overview.svg)
+![circuit_overview](media/circuit_overview.png)
 
 ### Demo
 ![fibonacci_run](media/fibonacci_run.gif)
